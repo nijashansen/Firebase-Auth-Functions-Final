@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="421223f4-cb0a-48c1-9f9e-92e29eab352c" name="Default Changelist" comment="" />
+    <list default="true" id="421223f4-cb0a-48c1-9f9e-92e29eab352c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/functions/src/helper/helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/models/stock.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/orders/order.repository.firebase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/orders/order.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/orders/order.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.controller.firebase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.repository.firebase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/test/order/order.service.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/test/products/product.service.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/tsconfig-basic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/tsconfig-build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/dependency-factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/dependency-factory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/models/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/models/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/products/product.controller.firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.controller.firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/products/product.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/products/product.repository.firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.repository.firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/products/product.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/products/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/test/product.controller.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/models/order.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/test/product.service.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/models/orderline.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="tsconfig.json" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -18,6 +49,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZNpi6vWhFqS9Af1TiNtc1LuSMJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,15 +59,75 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/FireBaseTest-functions-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/functions/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\GitHub Projecs\Firebase-Auth-Functions\functions\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub Projecs\Firebase-Auth-Functions\functions\src" />
+      <recent name="D:\GitHub Projecs\Firebase-Auth-Functions\functions" />
+      <recent name="D:\GitHub Projecs\Firebase-Auth-Functions\functions\src\test" />
+      <recent name="D:\GitHub Projecs\Firebase-Auth-Functions\functions\src\test\helper" />
+      <recent name="D:\GitHub Projecs\Firebase-Auth-Functions\functions\src\test\products" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.OrderService.When Executing order I need atleast 1 orderline">
+    <configuration name="OrderService" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/functions/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/functions" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/functions/src/test/order/order.service.test.ts" />
+      <test-names>
+        <test-name value="OrderService" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderService.When Executing order I need atleast 1 orderline" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/functions/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/functions" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/functions/src/test/order/order.service.test.ts" />
+      <test-names>
+        <test-name value="OrderService" />
+        <test-name value="When Executing order I need atleast 1 orderline" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductService.should add stock of 5 to a newly created product" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/functions/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/functions" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/functions/src/test/product.service.test.ts" />
+      <test-names>
+        <test-name value="ProductService" />
+        <test-name value="should add stock of 5 to a newly created product" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.OrderService.When Executing order I need atleast 1 orderline" />
+        <item itemvalue="Jest.OrderService" />
+        <item itemvalue="Jest.ProductService.should add stock of 5 to a newly created product" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,7 +143,20 @@
       <workItem from="1584690116198" duration="1006000" />
       <workItem from="1584691134945" duration="2525000" />
       <workItem from="1585034932827" duration="6183000" />
-      <workItem from="1585042829809" duration="872000" />
+      <workItem from="1585042829809" duration="2123000" />
+      <workItem from="1585048046581" duration="2277000" />
+      <workItem from="1585125286350" duration="6953000" />
+      <workItem from="1585226216873" duration="1338000" />
+      <workItem from="1585296374096" duration="1538000" />
+      <workItem from="1585298517616" duration="223000" />
+      <workItem from="1585302406885" duration="415000" />
+      <workItem from="1585555306602" duration="4386000" />
+      <workItem from="1585567561482" duration="1119000" />
+      <workItem from="1585568693534" duration="935000" />
+      <workItem from="1585637741317" duration="2791000" />
+      <workItem from="1585641669413" duration="60000" />
+      <workItem from="1585641791211" duration="5257000" />
+      <workItem from="1585653153845" duration="11900000" />
     </task>
     <servers />
   </component>
@@ -59,17 +164,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="610" y="184" key="#OrderService.When_Executing_order_I_need_atleast_1_orderline" timestamp="1585639429780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="184" key="#OrderService.When_Executing_order_I_need_atleast_1_orderline/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585639429780" />
     <state x="725" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585036564830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585036564830" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585038271247">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585660748008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585038271247" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584694036621">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585660748008" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585641725069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585641725069" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585637823264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585637823264" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585653178357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585653178357" />
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584694036621" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1585569628469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585569628469" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1585569628469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585569628469" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1585569628468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585569628468" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1585569628469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585569628469" />
+    <state x="701" y="151" key="refactoring.ChangeSignatureDialog" timestamp="1585661448830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="151" key="refactoring.ChangeSignatureDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585661448830" />
   </component>
 </project>

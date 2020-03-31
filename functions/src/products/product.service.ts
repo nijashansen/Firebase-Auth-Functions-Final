@@ -1,9 +1,11 @@
 import {ProductRepository} from "./product.repository";
 import {Product} from "../models/product";
+import {StockRepository} from "../stock/stock.repository";
+
 
 
 export class ProductService {
-    constructor(private productRepository: ProductRepository) {
+    constructor(private productRepository: ProductRepository, private stockRepository: StockRepository) {
     }
 
     writeProducts(
@@ -11,39 +13,28 @@ export class ProductService {
         productBefore: Product,
         productAfter: Product,
     ): Promise<void> {
-        const times = productBefore.timesPurchased++;
         if (productAfter) {
             return this.productRepository.setTopProducts({
-                uId: prodId,
+                Id: prodId,
                 name: productAfter.name,
                 price: productAfter.price,
-                url: productAfter.url,
-                timesPurchased: times,
             })
         } else {
             return this.productRepository.deleteTopProducts(prodId);
         }
     }
 
-    updateTopProduct(
-        prodId: string,
-        productBefore: Product,
-        productAfter: Product): Promise<void> {
+    updateTopProduct(prodId: string, productBefore: Product, productAfter: Product): Promise<void> {
         const name = productAfter.name.toUpperCase();
         return this.productRepository.setTopProducts({
-            uId: prodId,
+            Id: prodId,
             name: name,
             price: productAfter.price,
-            url: productAfter.url,
-            timesPurchased: productAfter.timesPurchased,
         });
     }
 
-    buy(product: Product): Product {
-        if(product) {
-            product.timesPurchased = product.timesPurchased +1;
-            return product;
-        }
-        return undefined as any;
+    async create(prodId: string, product: Product): Promise<Product> {
+        await this.stockRepository.create(prodId, product, 1000000);
+        return Promise.resolve(product);
     }
 }
