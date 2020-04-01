@@ -2,6 +2,7 @@ import * as functions from 'firebase-functions';
 import * as admin from "firebase-admin";
 import {DependencyFactory} from "./dependency-factory";
 
+
 const serviceAccount = require('../secret.json');
 const difa = new DependencyFactory();
 
@@ -26,6 +27,12 @@ exports.newProduct = functions.firestore
     .document('products/{prodId}')
     .onWrite((snap, context) => {
         return difa.getProductController().create(snap, context);
+    });
+
+exports.updateNameOfProducts = functions.firestore
+    .document('products/{prodId}')
+    .onUpdate((change, context) => {
+        return difa.getProductController().updateAllProductNames(change, context);
     });
 
 exports.topProductUpdated = functions.firestore

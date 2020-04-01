@@ -2,35 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="421223f4-cb0a-48c1-9f9e-92e29eab352c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functions/src/helper/helper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/models/stock.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/orders/order.repository.firebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/orders/order.repository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/orders/order.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.controller.firebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.repository.firebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.repository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/stock/stock.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/test/order/order.service.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/test/products/product.service.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/tsconfig-basic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/tsconfig-build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/test/stock/stock.service.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/dependency-factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/dependency-factory.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/models/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/models/product.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/products/product.controller.firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.controller.firebase.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/products/product.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/products/product.repository.firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.repository.firebase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/products/product.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.repository.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/products/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/products/product.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/test/product.controller.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/models/order.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/test/product.service.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/models/orderline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/stock/stock.repository.firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/stock/stock.repository.firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/stock/stock.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/stock/stock.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/test/order/order.service.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/test/order/order.service.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/test/products/product.service.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/test/products/product.service.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +137,9 @@
       <workItem from="1585637741317" duration="2791000" />
       <workItem from="1585641669413" duration="60000" />
       <workItem from="1585641791211" duration="5257000" />
-      <workItem from="1585653153845" duration="11900000" />
+      <workItem from="1585653153845" duration="14258000" />
+      <workItem from="1585669682345" duration="105000" />
+      <workItem from="1585732325913" duration="2624000" />
     </task>
     <servers />
   </component>
@@ -172,10 +155,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585036564830" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585660748008">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585734796517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585660748008" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585734796517" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585641725069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

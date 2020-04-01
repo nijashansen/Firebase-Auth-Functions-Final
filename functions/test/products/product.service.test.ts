@@ -9,7 +9,7 @@ describe('ProductService', () => {
     let productRepository: IMock<ProductRepository>;
     let stockRepository: IMock<StockRepository>;
     let productService: ProductService;
-    const product: Product = {price: 100, name: 'HP', uId: 'ab'};
+    const product: Product = {price: 100, name: 'HP', Id: 'ab'};
     const stock: Stock = {product: product, count: 5};
     beforeEach(() => {
         productRepository = new Mock<ProductRepository>()
@@ -17,7 +17,7 @@ describe('ProductService', () => {
             .returns(Promise.resolve(product));
 
         stockRepository = new Mock<StockRepository>()
-            .setup(stockRepo => stockRepo.create(product, 5))
+            .setup(stockRepo => stockRepo.create(product.Id, product, 5))
             .returns(Promise.resolve(stock));
 
         productService = new ProductService(productRepository.object(), stockRepository.object());
@@ -29,19 +29,19 @@ describe('ProductService', () => {
     });
 
     it('should check if stock repo has a create function', async () => {
-        await productService.create(product);
-        stockRepository.verify(stockRepo => stockRepo.create(product, 5), Times.Exactly(1))
+        await productService.create(product.Id, product);
+        stockRepository.verify(stockRepo => stockRepo.create(product.Id, product, 1000000), Times.Exactly(1))
     });
 
     it('should create a new product and return it', async () => {
-        const productAfter: Product = await productService.create(product);
+        const productAfter: Product = await productService.create(product.Id, product);
         expect(productAfter).toBe(product);
     });
 
 
-    it('should add stock of 5 to a newly created product', async () => {
-        await productService.create(product);
-        stockRepository.verify(stockRepo => stockRepo.create(product, 5), Times.Exactly(1));
+    it('should add stock of 1000000 to a newly created product', async () => {
+        await productService.create(product.Id, product);
+        stockRepository.verify(stockRepo => stockRepo.create(product.Id, product, 1000000), Times.Exactly(1));
     });
 
 

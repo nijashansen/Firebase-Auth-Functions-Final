@@ -31,7 +31,7 @@ describe('OrderService', () => {
     it('When I execute a order1 stock should go down with the correct amount of products bought with a orderline count of 1', async () => {
         const order = testHelper.getOrder1();
         const orderAfterExecute = await orderService.execute(order);
-        stockRepository.verify(stockRepo => stockRepo.lowerStock(order.orderLines[0].product),
+        stockRepository.verify(stockRepo => stockRepo.lowerStock(order),
             Times.Exactly(1));
         expect(orderAfterExecute).toBeDefined();
     });

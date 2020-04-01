@@ -7,4 +7,6 @@ export interface StockRepository {
     create(prodId: string, product: Product, number: number): Promise<Stock>;
 
     lowerStock(order: Order): Promise<void>;
+
+    updateProductName(prodId: any, productAfter: Product): Promise<void>;
 }

@@ -37,4 +37,9 @@ export class ProductService {
         await this.stockRepository.create(prodId, product, 1000000);
         return Promise.resolve(product);
     }
+
+    async updateAllProductNames(prodId: any, productBefore: Product, productAfter: Product) {
+        await this.stockRepository.updateProductName(prodId, productAfter);
+        return Promise.resolve(productAfter);
+    }
 }

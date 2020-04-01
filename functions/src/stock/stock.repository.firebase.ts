@@ -23,4 +23,10 @@ export class StockRepositoryFirebase implements StockRepository{
         await stock.update({count: FieldValue.increment(-order.amount)}).catch();
         return Promise.resolve();
     }
+
+    async updateProductName(prodId: any, productAfter: Product) {
+        const stock = this.db().collection(`${this.stockPath}`).doc(productAfter.Id);
+        await stock.update({name: productAfter.name}).catch();
+        return Promise.resolve();
+    }
 }
